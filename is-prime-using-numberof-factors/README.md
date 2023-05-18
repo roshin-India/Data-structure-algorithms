@@ -1,15 +1,14 @@
 # Problem Description
 
-```
 ### Given a number A. Return "prime" if A is prime and return "not prime" if not.
 
-Note :
-The value of A can cross the range of Integer.
-```
+Note : _The value of A can cross the range of Integer._
 
 ### Problem Constraints
 
+```
 1 <= A <= 10^12
+```
 
 ```
 ### Input Format
