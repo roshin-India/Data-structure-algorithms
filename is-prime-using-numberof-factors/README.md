@@ -1,18 +1,18 @@
 # Problem Description
 
-### Given a number A. Return 1 if A is prime and return 0 if not.
+### Given a number A. Return "prime" if A is prime and return "not prime" if not.
 
 Note :
 The value of A can cross the range of Integer.
 
 Problem Constraints
-1 <= A <= 1012
+1 <= A <= 10^12
 
 Input Format
 The first argument is a single integer A.
 
 Output Format
-Return 1 if A is prime else return 0.
+Return "prime" if A is prime else return "not prime".
 
 Example Input
 Input 1:
@@ -23,10 +23,9 @@ A = 10
 
 Example Output
 Output 1:
-1
+prime
 Output 2:
-
-0
+not prime
 
 Example Explanation
 Explanation 1:
