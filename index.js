@@ -77,7 +77,7 @@ function findSecondLargest(arr) {
   return second;
 }
 
-// Example usage
+// Example usageDFG ERETY ERYERY
 const arr3 = [1, 2, 3, 4, 9, 5];
 // console.log(";;;;", findSecondLargest(arr3));
 
