@@ -10,18 +10,21 @@ Note : _The value of A can cross the range of Integer._
 1 <= A <= 10^12
 ```
 
-```
 ### Input Format
+
+```
 The first argument is a single integer A.
 ```
 
-```
 ### Output Format
+
+```
 Return "prime" if A is prime else return "not prime".
 ```
 
-```
 ### Example Input
+
+```
 Input 1: A = 5
 Input 2: A = 10
 ```
