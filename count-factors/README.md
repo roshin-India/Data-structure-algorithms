@@ -23,7 +23,7 @@ First and only argument is an integer A.
 Return the count of factors of A.
 ```
 
-###Example Input
+### Example Input
 
 ```
 Input 1: 5
