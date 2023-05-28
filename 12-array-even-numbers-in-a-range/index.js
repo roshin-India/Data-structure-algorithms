@@ -8,7 +8,7 @@ function evenNumInRangeArray(A, B) {
   let N = A.length;
   let evenArray = [];
   for (let i = 0; i < N; i++) {
-    evenArray.push(A[i] % 2 == 0 ? 1 : 0);
+    evenArray.push(Number(A[i]) % 2 == 0 ? 1 : 0);
   }
   let prefixSum = [];
   prefixSum[0] = evenArray[0];
@@ -19,9 +19,9 @@ function evenNumInRangeArray(A, B) {
   //***OR***//
   // We can create pf sum in one loop
   // let prefixSum = []; //[ 0, 1, 1, 2, 2 ]
-  // prefixSum[0] = A[0] % 2 === 0 ? 1 : 0;
+  // prefixSum[0] = Number(A[0]) % 2 === 0 ? 1 : 0;
   // for (let i = 1; i < N; i++) {
-  //   prefixSum[i] = prefixSum[i - 1] + (A[i] % 2 === 0 ? 1 : 0);
+  //   prefixSum[i] = prefixSum[i - 1] + (Number(A[i]) % 2 === 0 ? 1 : 0);
   // }
 
   let count = [];
