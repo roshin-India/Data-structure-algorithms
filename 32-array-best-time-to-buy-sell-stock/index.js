@@ -16,4 +16,3 @@ function maxprofitOnstockArray(A) {
   return maxprofit;
 }
 const res = maxprofitOnstockArray(A);
-console.log(res);
