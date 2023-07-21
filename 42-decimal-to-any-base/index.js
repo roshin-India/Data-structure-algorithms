@@ -1,16 +1,15 @@
-function baseToDec(A, B) {
-  let newArr = A.toString().split("");
-  let decimalVal = 0;
-  let i = 0;
-  let j = newArr.length - 1;
-  while (j >= 0) {
-    let val = newArr[j] * B ** i;
-    decimalVal += val;
-    i++;
-    j--;
+function decToBase(A, B) {
+  let newnumber = "";
+  if (A == 0) {
+    return 0;
   }
-  return decimalVal;
+  while (A > 0) {
+    let rem = A % B;
+    newnumber = rem + newnumber;
+    A = Math.floor(A / B);
+  }
+  return newnumber;
 }
 
-const res = baseToDec(1010, 2);
+const res = decToBase(1010, 2);
 console.log(res);

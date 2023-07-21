@@ -1,5 +1,6 @@
 function baseToDec(A, B) {
   let newArr = A.toString().split("");
+  console.log("asd", newArr);
   let decimalVal = 0;
   let i = 0;
   let j = newArr.length - 1;
