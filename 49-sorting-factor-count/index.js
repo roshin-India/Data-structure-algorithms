@@ -1,8 +1,6 @@
 const A = [6, 8, 9];
 function sortFactor(A) {
   A.sort(function (a, b) {
-    console.log("a", a);
-    console.log("b", b);
     let x = countFact(a);
     let y = countFact(b);
     if (x < y) {
