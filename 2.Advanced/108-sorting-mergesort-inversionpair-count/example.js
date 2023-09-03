@@ -1,6 +1,4 @@
 function merge(A, B) {
-  //   A = A.sort();
-  //   B = B.sort();
   console.log("A=>", A);
   console.log("B=>", B);
   let n = A.length;
