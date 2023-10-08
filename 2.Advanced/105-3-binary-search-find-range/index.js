@@ -35,7 +35,6 @@ function findRange(findFirstOccurence, A, B) {
       r = mid - 1;
     }
   }
-  console.log("nhn", idx);
   return idx;
 }
 
