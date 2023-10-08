@@ -15,7 +15,6 @@ function countOccurrencesRabinKarp(A, B) {
   if (bHashValue === aHashValue) {
     result++;
   }
-  console.log("sdcfs", lastValue);
 
   for (let i = B.length; i < A.length; i++) {
     aHashValue =
